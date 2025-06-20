@@ -156,6 +156,6 @@ This project is open-sourced under the [MIT License](LICENSE).
 
 ## 🙋‍♂️ Author
 
-**Your Name**  
+**Himanshu Gogoi**  
 [Your GitHub](https://github.com/your-username)  
 Feel free to fork and modify!
