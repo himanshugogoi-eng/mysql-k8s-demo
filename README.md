@@ -117,7 +117,7 @@ mysql -h mysql-service -uroot -p
 
 ---
 
-## 🔍 Step 3: Access MySQL from Within the Cluster
+## 🔍 Step 4: Access MySQL from outside the Cluster
 Modify the service in the yaml file:
 ```bash
 type: NodePort
