@@ -115,6 +115,27 @@ mysql -h mysql-service -uroot -p
 
 ---
 
+---
+
+## 🔍 Step 3: Access MySQL from Within the Cluster
+Modify the service in the yaml file:
+```bash
+type: NodePort
+```
+Then get the external port:
+```bash
+kubectl get svc
+```
+Also get the node ip:
+```bash
+kubectl get nodes -o wide
+```
+Now try to connect to mysql from outside:
+```bash
+mysql -h <node-ip> -P <external-port> -uroot -p
+```
+---
+
 ## 🛠️ Troubleshooting
 
 | Problem                                  | Solution                                                                 |
